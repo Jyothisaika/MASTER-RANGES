@@ -1,0 +1,56 @@
+.body_background 
+{
+    background-image:url('backg.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+#myCanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+}
+
+h3
+{
+	width: 600px;
+	background-color: white;
+	display: inline-block;
+}
+
+if(key pressed == '82')
+{
+    block_x = 10;
+    new_image('red.jpg');
+    console.log('R')
+}
+
+if(key pressed == '71')
+{
+    block_x = 310;
+    new_image('green.png');
+    console.log('G')
+}
+
+if(key pressed == '89')
+{
+    block_x = 560;
+    new_image('yellow.png');
+    console.log('Y')
+}
+  
+if(key pressed == '80')
+{
+    block_x = 880;
+    new_image('pink.png');
+    console.log('P')
+}
+
+if(key pressed == '66')
+{
+    block_x = 1040;
+    new_image('blue.png');
+    console.log('B')
+}
